@@ -1,0 +1,582 @@
+html {
+    scroll-behavior:smooth;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto"
+}
+
+boby {
+    font-family: "Source Sans Pro", sans-serif;}
+    
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Title styles */
+.tag {
+    font-size: 24px;
+    margin: 0;
+}
+
+.pale-red {
+    background-color: #1374d4;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Button styles */
+.button {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.hide-small {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) {
+    .hide-small {
+        display: inline-block;
+    }
+}
+
+.hide-medium {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .hide-medium {
+        display: inline-block;
+    }
+}
+
+.hide-large {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .hide-large {
+        display: inline-block;
+    }
+}
+
+/* Additional utility classes */
+.left {
+    float: left;
+}
+
+.round {
+    border-radius: 8px;
+}
+
+.text-black {
+    color: black;
+}
+
+.mobile {
+    display: block;
+}
+/* =================================================================container styles================================================================*/
+.content {
+    margin:auto;
+    max-width:1600px;
+}
+
+/* Header styles */
+.display-container {
+    position:relative;
+}
+
+.wide {
+    width: 100%;
+    height:auto;
+    display:block;
+}
+
+/*Positioning*/
+.display-left {
+    position:absolute;
+    left: 0;
+    bottom:0;
+    padding:32px;
+}
+
+/* Text styles */
+.text-white {
+    color: #fff;
+}
+
+.jumbo {
+    font-size:64px;
+    font-weight: bold;
+}
+
+.hide-small {
+    display:none;
+}
+
+/* button style */
+.button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #2E86c2;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.round {
+    border-radius: 12px;
+}
+
+.pale-red {
+    background-color: #2E86c2;
+}
+
+.padding-large {
+    padding: 16px 32px;
+}
+
+.large {
+    font-size: 24px;
+}
+
+.hover-opacity-off:hover {
+    opacity: 1;
+}
+
+/* Responsive styles */
+@media (min-width: 600px) {
+    .hide-small {
+        display: block;
+    }
+}
+
+/* Container styles */
+.row-padding {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+/* Alignment and spacing */
+.center {
+    text-align: center;
+}
+
+.padding-32 {
+    padding: 32px;
+}
+
+.left-align {
+    text-align: left;
+}
+
+/* Text styles */
+.wide {
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.opacity {
+    opacity: 0.6;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.text-black {
+    color: #000000;
+}
+
+/* Additional utility classes */
+@media (max-width: 768px) {
+    .left-align {
+        text-align: left;
+    }
+
+    .center {
+        text-align: center;
+    }
+}
+/* Container styles */
+.third {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.margin-bottom {
+    margin-bottom: 16px;
+}
+
+/* Card styles */
+.card-4 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-4:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Container styles */
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+/* Text styles */
+.opacity {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f28b82;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.round {
+    border-radius: 12px;
+}
+
+.pale-red {
+    background-color: #f28b82;
+}
+
+.block {
+    width: 100%;
+    box-sizing: border-box;
+}
+/* Width and Margin */
+.third {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.margin-bottom {
+    margin-bottom: 16px;
+}
+
+/* Card Styles */
+.card-4 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-4:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Container Padding */
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+/* Text Opacity */
+.opacity {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f28b82;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.round {
+    border-radius: 12px;
+}
+
+.pale-red {
+    background-color: #f28b82;
+}
+
+.block {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .third {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}
+/* General Layout */
+.third {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.margin-bottom {
+    margin-bottom: 16px;
+}
+
+/* Card Styling */
+.card-4 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-4:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Opacity on Hover */
+.hover-opacity:hover {
+    opacity: 0.8;
+}
+
+/* Container and Text Styling */
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+.opacity {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.text-black {
+    color: #000;
+}
+
+.white {
+    background-color: #fff;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f28b82;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.round {
+    border-radius: 12px;
+}
+
+.pale-red {
+    background-color: #f28b82;
+}
+
+.block {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Additional Spacing */
+.padding-32 {
+    padding: 32px;
+}
+
+.row-padding {
+    margin: 0 -16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .third {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}
+/* General Layout */
+.white {
+    background-color: #fff;
+}
+
+.container {
+    padding: 32px;
+}
+
+.padding-32 {
+    padding: 32px;
+}
+
+.center {
+    text-align: center;
+}
+
+.wide {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.opacity {
+    opacity: 0.7;
+}
+
+/* Text Color */
+.text-black {
+    color: #000;
+}
+
+.left-align {
+    text-align: left;
+}
+
+/* Form Elements */
+.input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.border {
+    border: 1px solid #ddd;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f28b82;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.round {
+    border-radius: 12px;
+}
+
+.pale-red {
+    background-color: #b882f2;
+}
+
+.block {
+    width: 100%;
+}
+/* Footer */
+.container {
+    padding: 16px;
+}
+
+.pale-red {
+    background-color: #2a8dda;
+}
+
+.center {
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.hover-opacity {
+    transition: opacity 0.3s;
+}
+
+.hover-opacity:hover {
+    opacity: 0.7;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    color: #0779c5;
+    border: 1px solid #1fa7eb;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.round-xxlarge {
+    border-radius: 20px;
+}
+
+.margin-bottom {
+    margin-bottom: 16px;
+}
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+#whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#whatsapp-float img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
